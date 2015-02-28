@@ -3,4 +3,5 @@ Rails.application.routes.draw do
   devise_for :users
   get 'all_users' => 'users#index'
   resources :users
+  resources :cities
 end
